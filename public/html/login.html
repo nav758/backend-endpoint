@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Login</h2>
+  
+    <form  method="post" action="/login">
+      <input placeholder="username" name="username">
+      <input placeholder="password" name="password">
+      <input type="submit" value="login">
+    </form>
+
+     <h2 style="color: red; font-size: 20px;" id="error"></h2>
+  <div id="create-account-wrap">
+    <p>Not a member? <a href="/signup">Create Account</a><p>
+      <a href="/">Home</a>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+</body>
+<!-- <script src="/js/login.js"></script> -->
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Signup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/css/signup.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Register</h2>
+  
+    <form action="/signup" method="post">
+      <input placeholder="username" name="username">
+      <input placeholder="password" name="password">
+      <input type="submit" value="signup">
+    </form>
+
+    <h2 style="color: red; font-size: 20px;" id="error"></h2>
+  <div id="create-account-wrap">
+    <p>Already a member? <a href="/login">Login</a><p>
+      <a href="/">Home</a>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+</body>
+<!-- <script src="/js/signup.js"></script> -->
+</html>
